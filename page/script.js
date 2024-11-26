@@ -28,7 +28,7 @@ function sendLogData(email, action) {
     action: action
   };
   
-  fetch('https://script.google.com/macros/s/AKfycbyvpYGT0o-S0p5MDGyv8kDzoc_-fG4GP75x8We59_weM7C4-mGgC9jdr24Zvj4cmzYU/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbwJw23qGa91dz6yg5YGWsVsYD6dumMdJnOljI_Pwqb9isjgZ9HIJStdBlxz0s6xjdlm/exec', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
